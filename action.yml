@@ -1,8 +1,8 @@
-name: 'Extract Function Signatures'
-description: 'Extract function signatures from Java/Kotlin/Groovy files'
+name: 'Generate API documentation using local LLMs'
+description: 'Generate API documentation from Java/Kotlin/Groovy files'
 inputs:
   repository_url:
-    description: 'URL of the repository'
+    description: 'https://github.com/xyproto/apidoc-action'
     required: true
 runs:
   using: 'docker'
