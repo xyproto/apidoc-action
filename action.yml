@@ -1,0 +1,11 @@
+name: 'Extract Function Signatures'
+description: 'Extract function signatures from Java/Kotlin/Groovy files'
+inputs:
+  repository_url:
+    description: 'URL of the repository'
+    required: true
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+  args:
+    - ${{ inputs.repository_url }}
